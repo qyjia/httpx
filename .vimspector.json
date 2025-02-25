@@ -1,0 +1,27 @@
+{
+    "configurations": {
+        "Debugger: Launch": {
+            "adapter": "debugpy",
+            "filetypes": [ "python" ],
+            "configuration": {
+                "name": "Debugger: Launch",
+                "request": "launch",
+                "type": "python",
+                "cwd": "${workspaceRoot}",
+                "program": "${file}",
+                "stopOnEntry": true,
+                "_console": "externalTerminal",
+                "python": "python3",
+                "debugOptions": []
+            },
+            "breakpoints": {
+                "exception": {
+                    "caught": "N",
+                    "uncaught": "Y",
+                    "raised": "N",
+                    "userUnhandled": "Y"
+                }
+            }
+        }
+    }
+}
